@@ -1,0 +1,10 @@
+.DS_store
+img_cache
+desktop.ini
+node_modules/
+# Wireframes
+Wireframes - ABOUT US.png
+Wireframes - ALBUMS.png
+Wireframes - ARTISTS.png
+Wireframes - FEEDBACKS.png
+Wireframes - HOME.png
