@@ -1,0 +1,146 @@
+header, nav, article, aside, footer {
+  border: 1px solid rgb(5, 73, 75);
+}
+
+body a {
+  text-decoration: none;
+  color: black;
+}
+
+main a:hover {
+  font-weight: bolder;
+}
+
+article:nth-child(even) {
+  background-color: rgba(204, 204, 166, 0.8);
+}
+
+article:nth-child(odd) {
+  background-color: rgba(197, 197, 191, 0.8);
+}
+
+footer {
+  background-color: rgb(241, 241, 189);
+}
+footer a:hover {
+  font-weight: bolder;
+}
+
+header {
+  background-color: rgb(83, 219, 208);
+}
+header p {
+  font-size: larger;
+}
+header img {
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.navbar {
+  background-color: rgb(154, 252, 255);
+  position: sticky;
+}
+
+.nav-link:hover:not(.active) {
+  color: white;
+  background-color: rgb(2, 100, 100);
+}
+
+.about-us p {
+  text-align: justify;
+}
+
+.albums h2, .albums h3:not(details h3) {
+  text-align: center;
+}
+
+.gallery img {
+  max-width: 100%;
+  max-height: 300px;
+}
+.gallery p {
+  text-align: center;
+  font-style: italic;
+}
+
+.tracklist {
+  font-size: 1.2em;
+  margin-left: 5%;
+}
+
+.youtube {
+  margin: 0 15px;
+  opacity: 0.8;
+  color: red;
+}
+.youtube:hover {
+  opacity: 1;
+}
+
+.spotify {
+  margin: 0 15px;
+  opacity: 0.8;
+  color: rgb(27, 179, 27);
+}
+.spotify:hover {
+  opacity: 1;
+}
+
+details {
+  text-align: justify;
+}
+
+.artists {
+  background: white url("../img/fondo-artists.png") no-repeat fixed center;
+  background-size: cover;
+  text-align: justify;
+}
+.artists h2 {
+  font-weight: bolder;
+}
+.artists img {
+  max-width: 300px;
+  max-height: 300px;
+}
+.artists a {
+  text-align: center;
+}
+.artists a:hover {
+  font-weight: bolder;
+}
+
+.feedbacks fieldset {
+  background-color: rgba(248, 187, 206, 0.8);
+}
+
+/* News */
+.news {
+  background-color: rgba(161, 255, 250, 0.7);
+}
+.news p {
+  text-align: justify;
+}
+.news a {
+  text-align: center;
+}
+
+/* Recent */
+.recent p {
+  text-align: justify;
+}
+.recent a {
+  text-align: center;
+}
+.recent img {
+  max-width: 100%;
+  max-height: 200px;
+  opacity: 0.8;
+}
+.recent img:hover {
+  opacity: 1;
+  box-shadow: 5px 5px 2px gray;
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=styles.css.map */

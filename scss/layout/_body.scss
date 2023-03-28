@@ -1,0 +1,16 @@
+header, nav, article, aside, footer {
+	border: 1px solid rgb(5, 73, 75);
+}
+body a {
+	text-decoration: none;
+	color: black;
+}
+main a:hover {
+	font-weight: bolder;
+}
+article:nth-child(even) {
+	background-color: rgba(204, 204, 166, 0.8);
+}
+article:nth-child(odd) {
+	background-color: rgba(197, 197, 191, 0.8);
+}

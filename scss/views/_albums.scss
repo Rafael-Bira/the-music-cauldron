@@ -1,0 +1,36 @@
+.albums h2, .albums h3:not(details h3) {
+	text-align: center;
+}
+.gallery {
+    img {
+        max-width: 100%;
+        max-height: $max-height;
+    }
+    p {
+        text-align: center;
+        font-style: italic;
+    }
+}
+.tracklist {
+	font-size: 1.2em;
+	margin-left: 5%;
+}
+.youtube {
+	margin: 0 15px;
+	opacity: $opacity;
+    color: red;
+    &:hover {
+        opacity: 1;
+    }
+}
+.spotify {
+    margin: 0 15px;
+	opacity: $opacity;
+    color: rgb(27, 179, 27);
+    &:hover {
+        opacity: 1;
+    }
+}
+details {
+	text-align: justify;
+}

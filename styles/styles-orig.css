@@ -1,0 +1,172 @@
+/* -- BODY -- */
+header, nav, article, aside, footer {
+	border: 1px solid rgb(5, 73, 75);
+}
+article:nth-child(even) {
+	background-color: rgba(204, 204, 166, 0.8);
+}
+article:nth-child(odd) {
+	background-color: rgba(197, 197, 191, 0.8);
+}
+
+
+/* -- HEADER -- */
+header {
+	background-color: rgb(44, 46, 75);
+}
+header img {
+	width: 120px;
+	height: 120px;
+}
+
+
+/* -- NAV BAR -- */
+.navbar {
+	background-color: rgb(62, 191, 214);
+	position: sticky; 
+}
+.nav-link .active {
+	background-color: rgb(0, 109, 109);
+}
+.nav-link:hover:not(.active) {
+	color: white;
+	background-color: rgb(3, 145, 126);
+}
+
+
+/* -- HOME -- */
+.home {
+	background: white url("../img/fondo-index.png") no-repeat fixed center;
+	background-size: cover;
+}
+.recent p, .news p {
+	text-align: justify;
+}
+.recent a, .news a {
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+	/* News */
+.news {
+	background-color: rgba(161, 255, 250, 0.7);
+}
+.news a:hover {
+	font-weight: bolder;
+}
+	/* Recent */	
+.recent img {
+	width: 200px;
+	height: 200px;
+}
+.recent a:hover {
+	opacity: 0.8;
+}
+
+
+/* -- ARTISTS -- */
+.artists {
+	background: white url("../img/fondo-artists.png") no-repeat fixed center;
+	background-size: cover;
+}
+.artists {
+	text-align: justify;
+}
+.artists h2 {
+	font-weight: bolder;
+}
+.artists img {
+	width: 250px;
+	height: 200px;
+}
+.artists a {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+.artists a:hover {
+	font-weight: bolder;
+}
+
+
+/* -- ALBUMS -- */
+.albums {
+	background: white url("../img/fondo-albums.png") no-repeat fixed center;
+}
+.cover {
+	width: 300px;
+	height: 300px;
+}
+.tracklist ol {
+	font-size: 1.2em;
+	margin-left: 15px;
+}
+.youtube, .spotify {
+	margin: 0 15px;
+}
+.youtube {
+	color: red;
+}
+.spotify {
+	color: rgb(27, 179, 27);
+}
+.youtube:hover, .spotify:hover {
+	opacity: 0.8;
+}
+.albums h2, .albums h3:not(details h3), .gallery a {
+	text-align: center;
+}
+details {
+	text-align: justify;
+}
+.gallery {
+	background-color: rgb(44, 46, 75);
+}
+.gallery a {
+	display: block;
+	text-decoration: none;
+	margin-bottom: 15px;
+}
+.carousel-item p {
+	color: white;
+	text-align: center;
+}
+.gallery img {
+	width: 350px;
+	height: 350px;
+}
+.carousel-item h4 {
+	color: white;
+}
+
+
+/* -- FEEDBACKS -- */
+.feedbacks {
+	background: white url("../img/fondo-feedbacks.png") no-repeat fixed center;
+	background-size: cover;
+}
+.feedbacks fieldset {
+	background-color: rgba(248, 187, 206, 0.8);
+}
+.feedbacks a:hover {
+	font-weight: bolder;
+}
+
+
+/* -- ABOUT US -- */
+.about-us {
+	background: white url("../img/fondo-about-us.png") no-repeat fixed center;
+	background-size: cover;
+}
+.about-us p {
+	text-align: justify;
+}
+
+
+/* -- FOOTER -- */
+footer {
+	background-color: rgb(241, 241, 189);
+}
+footer a:hover {
+	font-weight: bolder;
+}

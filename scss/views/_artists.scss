@@ -1,0 +1,18 @@
+.artists {
+	background: white url("../img/fondo-artists.png") no-repeat fixed center;
+	background-size: cover;
+    text-align: justify;
+    h2 {
+        font-weight: bolder;
+    }
+    img {
+        max-width: 300px;
+        max-height: $max-height;
+    }
+    a {
+        text-align: center;
+        &:hover {
+            font-weight: bolder;
+        }
+    }
+}
