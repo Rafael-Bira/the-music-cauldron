@@ -39,7 +39,6 @@ header img {
 
 .navbar {
   background-color: rgb(154, 252, 255);
-  position: sticky;
 }
 
 .nav-link:hover:not(.active) {
@@ -47,6 +46,9 @@ header img {
   background-color: rgb(2, 100, 100);
 }
 
+.about-us {
+  background-color: rgba(204, 204, 166, 0.8);
+}
 .about-us p {
   text-align: justify;
 }
@@ -108,19 +110,35 @@ details {
   font-weight: bolder;
 }
 
+.feedbacks {
+  background-color: rgba(197, 197, 191, 0.8);
+}
 .feedbacks fieldset {
-  background-color: rgba(248, 187, 206, 0.8);
+  background-color: rgb(138, 215, 245);
+  border: 1px dotted blue;
 }
 
 /* News */
-.news {
-  background-color: rgba(161, 255, 250, 0.7);
-}
 .news p {
   text-align: justify;
 }
 .news a {
   text-align: center;
+}
+.news h2 {
+  animation: beating 1s linear infinite;
+}
+@keyframes beating {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+    color: rgba(187, 165, 39, 0.897);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* Recent */
@@ -138,7 +156,8 @@ details {
 .recent img:hover {
   opacity: 1;
   box-shadow: 5px 5px 2px gray;
-  font-weight: bolder;
+  transform: scale(1.1);
+  transition: all 0.2s;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,5 +1,7 @@
 .feedbacks {
+    background-color: $background-color-odd;
     fieldset {
-	    background-color: rgba(248, 187, 206, 0.8);
+	    background-color: rgb(138, 215, 245);
+        border: 1px dotted blue;
     }
 }

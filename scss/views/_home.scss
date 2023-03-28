@@ -1,11 +1,25 @@
 /* News */
 .news {
-	background-color: rgba(161, 255, 250, 0.7);
     p {
         text-align: justify;
     }
     a {
 	    text-align: center;
+    }
+    h2 {
+        animation: beating 1s linear infinite;
+        @keyframes beating {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+                color: rgba(187, 165, 39, 0.897);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
     }
 }
 
@@ -16,6 +30,8 @@
     }
     a {
 	    text-align: center;
+        &:hover {
+        }
     }
     img {
         max-width: 100%;
@@ -24,7 +40,8 @@
         &:hover {
             opacity: 1;
             box-shadow: 5px 5px 2px gray;
-            font-weight: bolder;
+            transform: scale(1.1);
+            transition: all 0.2s;
         }
     }
 }
