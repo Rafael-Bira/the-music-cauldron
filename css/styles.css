@@ -92,8 +92,6 @@ details {
 }
 
 .artists {
-  background: white url("../img/fondo-artists.png") no-repeat fixed center;
-  background-size: cover;
   text-align: justify;
 }
 .artists h2 {
