@@ -12,11 +12,11 @@ main a:hover {
 }
 
 article:nth-child(even) {
-  background-color: rgba(204, 204, 166, 0.8);
+  background-color: rgb(204, 204, 166);
 }
 
 article:nth-child(odd) {
-  background-color: rgba(197, 197, 191, 0.8);
+  background-color: rgb(226, 226, 191);
 }
 
 footer {
@@ -47,13 +47,13 @@ header img {
 }
 
 .about-us {
-  background-color: rgba(204, 204, 166, 0.8);
+  background-color: rgb(204, 204, 166);
 }
 .about-us p {
   text-align: justify;
 }
 
-.albums h2, .albums h3:not(details h3) {
+.albums h2, .albums h3 {
   text-align: center;
 }
 
@@ -89,7 +89,7 @@ header img {
   opacity: 1;
 }
 
-details {
+.details {
   text-align: justify;
 }
 
@@ -111,7 +111,7 @@ details {
 }
 
 .feedbacks {
-  background-color: rgba(197, 197, 191, 0.8);
+  background-color: rgb(226, 226, 191);
 }
 .feedbacks fieldset {
   background-color: rgb(138, 215, 245);
@@ -157,7 +157,7 @@ details {
   opacity: 1;
   box-shadow: 5px 5px 2px gray;
   transform: scale(1.1);
-  transition: all 0.2s;
+  transition: all 0.3s;
 }
 
 /*# sourceMappingURL=styles.css.map */

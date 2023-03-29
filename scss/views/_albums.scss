@@ -1,4 +1,4 @@
-.albums h2, .albums h3:not(details h3) {
+.albums h2, .albums h3 {
 	text-align: center;
 }
 .gallery {
@@ -31,6 +31,6 @@
         opacity: 1;
     }
 }
-details {
+.details {
 	text-align: justify;
 }
