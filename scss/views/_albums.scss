@@ -16,20 +16,10 @@
 	margin-left: 5%;
 }
 .youtube {
-	margin: 0 15px;
-	opacity: $opacity;
-    color: red;
-    &:hover {
-        opacity: 1;
-    }
+	@include streaming(red);
 }
 .spotify {
-    margin: 0 15px;
-	opacity: $opacity;
-    color: rgb(27, 179, 27);
-    &:hover {
-        opacity: 1;
-    }
+    @include streaming(rgb(27, 179, 27));
 }
 .details {
 	text-align: justify;

@@ -1,0 +1,8 @@
+@mixin streaming($color) {
+    margin: 0 15px;
+	opacity: $opacity;
+    color: $color;
+    &:hover {
+        opacity: 1;
+    }
+}
